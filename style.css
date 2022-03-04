@@ -1,0 +1,293 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Bohemian Typewriter';
+    src: URL('bohemian-typewriter.regular.ttf') format('truetype');
+  }
+
+
+.body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bohemian Typewriter';
+}
+
+
+.headerMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9994;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    background-color: black;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menuList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menuLink {
+    font-size: 32px;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.menuLink:hover {
+    color: plum;
+}
+
+
+.name {
+    background-image: url('/images/desk.jpg');
+    opacity: 5;
+    background-size: 100%;
+    position: relative;
+    color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-size: 52px;
+}
+
+
+.nameTitle {
+    align-self: flex-end; 
+    margin-left: 40px;
+}
+
+
+.about {
+    background-color: aliceblue;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+
+.aboutTitle {
+    align-self: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+
+.aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.aboutText {
+  width: 800px;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+
+
+.portrait {
+    border-radius: 50%;
+    border: 5px solid lightsteelblue;
+    
+}
+
+.portraitName {
+   margin-bottom: 0px;
+}
+
+.portraitSubTitle {
+    margin-top: 10px;
+}
+
+.portraitLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.githubLogo {
+    margin-right: 10px;
+}
+
+
+.linkedinLogo {
+    margin-left: 10px;
+}
+
+
+.multimedia {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.mediaTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 160px;
+}
+
+
+.verdiPopUp {
+    margin-right: 100px;
+}
+
+.verdi {
+    border-radius: 5%;
+    border: 5px solid lightsteelblue;
+
+}
+
+.pucciniPopUp {
+    margin-left: 100px;
+}
+
+.puccini {
+    border-radius: 5%;
+    border: 5px solid lightsteelblue;
+}
+
+.projects {
+    background-color: black;
+    position: relative;
+    color: azure;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    
+}
+
+.projectsTitle {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+
+.projectLink {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 40px;
+}
+
+
+.projectText {
+    width: 1200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+
+
+.projectGithubLink {
+    color: aliceblue;
+}
+
+
+.githubInfo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+
+.githubLink {
+    display: flex;
+   
+}
+
+
+.rehearsalTrackerGithubLogo {
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+
+.contact {
+    background-color: aliceblue;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactTitle {
+   font-size: 32px;
+   margin-bottom: 50px;
+}
+
+.contactText {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin-top: 5px;
+}
+
+.contactLogo {
+    width: 500px;
+    height: 221px;
+    background-color: black;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

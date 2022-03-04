@@ -1,0 +1,20 @@
+{
+  "name": "create-a-personal-website",
+  "version": "1.0.0",
+  "description": "A personal website is a great way to sell yourself while job hunting. Your website should include information about who you are, what you do, and link to places you are on the internet (GitHub, LinkedIn, etc.). It can also serve as an online resume with a portfolio of your work. Extending that further, it can also be a nice way to talk about things that you are learning or projects that you working on in a blog form as well.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremy-cady/create-a-personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremy-cady/create-a-personal-website/issues"
+  },
+  "homepage": "https://github.com/jeremy-cady/create-a-personal-website#readme",
+  "dependencies": {}
+}
